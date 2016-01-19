@@ -1,0 +1,1686 @@
+{
+    "kind": "qpxExpress#tripsSearch",
+    "trips": {
+        "kind": "qpxexpress#tripOptions",
+        "requestId": "D2b2UbhJMWqOWQBXk0NdN3",
+        "data": {
+            "kind": "qpxexpress#data",
+            "airport": [
+                {
+                    "kind": "qpxexpress#airportData",
+                    "code": "BOS",
+                    "city": "BOS",
+                    "name": "Boston Logan International"
+                },
+                {
+                    "kind": "qpxexpress#airportData",
+                    "code": "DEN",
+                    "city": "DEN",
+                    "name": "Denver International"
+                },
+                {
+                    "kind": "qpxexpress#airportData",
+                    "code": "IAD",
+                    "city": "WAS",
+                    "name": "Washington Dulles International"
+                },
+                {
+                    "kind": "qpxexpress#airportData",
+                    "code": "JFK",
+                    "city": "NYC",
+                    "name": "New York John F Kennedy International"
+                },
+                {
+                    "kind": "qpxexpress#airportData",
+                    "code": "LAX",
+                    "city": "LAX",
+                    "name": "Los Angeles International"
+                },
+                {
+                    "kind": "qpxexpress#airportData",
+                    "code": "ORD",
+                    "city": "CHI",
+                    "name": "Chicago O'Hare"
+                },
+                {
+                    "kind": "qpxexpress#airportData",
+                    "code": "RDU",
+                    "city": "RDU",
+                    "name": "Raleigh/Durham"
+                }
+            ],
+            "city": [
+                {
+                    "kind": "qpxexpress#cityData",
+                    "code": "BOS",
+                    "name": "Boston"
+                },
+                {
+                    "kind": "qpxexpress#cityData",
+                    "code": "CHI",
+                    "name": "Chicago"
+                },
+                {
+                    "kind": "qpxexpress#cityData",
+                    "code": "DEN",
+                    "name": "Denver"
+                },
+                {
+                    "kind": "qpxexpress#cityData",
+                    "code": "LAX",
+                    "name": "Los Angeles"
+                },
+                {
+                    "kind": "qpxexpress#cityData",
+                    "code": "NYC",
+                    "name": "New York"
+                },
+                {
+                    "kind": "qpxexpress#cityData",
+                    "code": "RDU",
+                    "name": "Raleigh/Durham"
+                },
+                {
+                    "kind": "qpxexpress#cityData",
+                    "code": "WAS",
+                    "name": "Washington"
+                }
+            ],
+            "aircraft": [
+                {
+                    "kind": "qpxexpress#aircraftData",
+                    "code": "319",
+                    "name": "Airbus A319"
+                },
+                {
+                    "kind": "qpxexpress#aircraftData",
+                    "code": "320",
+                    "name": "Airbus A320"
+                },
+                {
+                    "kind": "qpxexpress#aircraftData",
+                    "code": "32S",
+                    "name": "Airbus A320"
+                },
+                {
+                    "kind": "qpxexpress#aircraftData",
+                    "code": "738",
+                    "name": "Boeing 737"
+                },
+                {
+                    "kind": "qpxexpress#aircraftData",
+                    "code": "739",
+                    "name": "Boeing 737"
+                },
+                {
+                    "kind": "qpxexpress#aircraftData",
+                    "code": "73G",
+                    "name": "Boeing 737"
+                },
+                {
+                    "kind": "qpxexpress#aircraftData",
+                    "code": "753",
+                    "name": "Boeing 757"
+                },
+                {
+                    "kind": "qpxexpress#aircraftData",
+                    "code": "CR7",
+                    "name": "Canadair RJ 700"
+                },
+                {
+                    "kind": "qpxexpress#aircraftData",
+                    "code": "E90",
+                    "name": "Embraer RJ-190"
+                }
+            ],
+            "tax": [
+                {
+                    "kind": "qpxexpress#taxData",
+                    "id": "ZP",
+                    "name": "US Flight Segment Tax"
+                },
+                {
+                    "kind": "qpxexpress#taxData",
+                    "id": "AY_001",
+                    "name": "US September 11th Security Fee"
+                },
+                {
+                    "kind": "qpxexpress#taxData",
+                    "id": "US_001",
+                    "name": "US Transportation Tax"
+                },
+                {
+                    "kind": "qpxexpress#taxData",
+                    "id": "XF",
+                    "name": "US Passenger Facility Charge"
+                }
+            ],
+            "carrier": [
+                {
+                    "kind": "qpxexpress#carrierData",
+                    "code": "B6",
+                    "name": "Jetblue Airways Corporation"
+                },
+                {
+                    "kind": "qpxexpress#carrierData",
+                    "code": "UA",
+                    "name": "United Airlines, Inc."
+                }
+            ]
+        },
+        "tripOption": [
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD281.99",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg8001",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 562,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 103,
+                                "flight": {
+                                    "carrier": "B6",
+                                    "number": "1186"
+                                },
+                                "id": "GokAlyPauFfxIYU2",
+                                "cabin": "COACH",
+                                "bookingCode": "Z",
+                                "bookingCodeCount": 7,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LJDmTD0fzGXRx3SN",
+                                        "aircraft": "E90",
+                                        "arrivalTime": "2016-06-23T21:03-04:00",
+                                        "departureTime": "2016-06-23T19:20-04:00",
+                                        "origin": "RDU",
+                                        "destination": "JFK",
+                                        "originTerminal": "2",
+                                        "destinationTerminal": "5",
+                                        "duration": 103,
+                                        "mileage": 426,
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 102
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 357,
+                                "flight": {
+                                    "carrier": "B6",
+                                    "number": "2023"
+                                },
+                                "id": "GmroG5s+sOe76Sdr",
+                                "cabin": "COACH",
+                                "bookingCode": "Z",
+                                "bookingCodeCount": 4,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LCG2GUg75JMf80P2",
+                                        "aircraft": "32S",
+                                        "arrivalTime": "2016-06-24T01:42-07:00",
+                                        "departureTime": "2016-06-23T22:45-04:00",
+                                        "origin": "JFK",
+                                        "destination": "LAX",
+                                        "originTerminal": "5",
+                                        "destinationTerminal": "3",
+                                        "duration": 357,
+                                        "onTimePerformance": 40,
+                                        "mileage": 2468,
+                                        "meal": "Meal",
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "AIHXx3TnzuEPr+tZMy3Fuflub53wPoy0io12mz6uHIGKkIyi3Sr7CMZy9GuD50xvfqqWsImIQ9j8w3c/3D8wiPKMAw3yUukqAZMRaVFJJc/CFaYrVatsUN+1ooMQWTsFg7U8VRw3YdYsARo",
+                                "carrier": "B6",
+                                "origin": "RDU",
+                                "destination": "LAX",
+                                "basisCode": "ZH2AUEN5",
+                                "private": true
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AIHXx3TnzuEPr+tZMy3Fuflub53wPoy0io12mz6uHIGKkIyi3Sr7CMZy9GuD50xvfqqWsImIQ9j8w3c/3D8wiPKMAw3yUukqAZMRaVFJJc/CFaYrVatsUN+1ooMQWTsFg7U8VRw3YdYsARo",
+                                "segmentId": "GokAlyPauFfxIYU2"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AIHXx3TnzuEPr+tZMy3Fuflub53wPoy0io12mz6uHIGKkIyi3Sr7CMZy9GuD50xvfqqWsImIQ9j8w3c/3D8wiPKMAw3yUukqAZMRaVFJJc/CFaYrVatsUN+1ooMQWTsFg7U8VRw3YdYsARo",
+                                "segmentId": "GmroG5s+sOe76Sdr"
+                            }
+                        ],
+                        "baseFareTotal": "USD241.29",
+                        "saleFareTotal": "USD241.29",
+                        "saleTaxTotal": "USD40.70",
+                        "saleTotal": "USD281.99",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD18.10"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU B6 X/NYC B6 LAX Q RDULAX11.49 229.79ZH2AUEN5 1S0.01 USD 241.29 END ZP RDU JFK XT 18.10US 8.00ZP 5.60AY 9.00XF RDU4.50 JFK4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            },
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD281.99",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg8006",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 697,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 113,
+                                "flight": {
+                                    "carrier": "B6",
+                                    "number": "984"
+                                },
+                                "id": "GEc6NZby5yGN0Au+",
+                                "cabin": "COACH",
+                                "bookingCode": "Z",
+                                "bookingCodeCount": 7,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "L-ekFeL2uxlzcLGk",
+                                        "aircraft": "E90",
+                                        "arrivalTime": "2016-06-23T16:48-04:00",
+                                        "departureTime": "2016-06-23T14:55-04:00",
+                                        "origin": "RDU",
+                                        "destination": "BOS",
+                                        "originTerminal": "2",
+                                        "destinationTerminal": "C",
+                                        "duration": 113,
+                                        "onTimePerformance": 70,
+                                        "mileage": 611,
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 212
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 372,
+                                "flight": {
+                                    "carrier": "B6",
+                                    "number": "687"
+                                },
+                                "id": "GTNTDBwxA83RNw9f",
+                                "cabin": "COACH",
+                                "bookingCode": "Z",
+                                "bookingCodeCount": 7,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "L3mYJG4-Rz9cGBsT",
+                                        "aircraft": "320",
+                                        "arrivalTime": "2016-06-23T23:32-07:00",
+                                        "departureTime": "2016-06-23T20:20-04:00",
+                                        "origin": "BOS",
+                                        "destination": "LAX",
+                                        "originTerminal": "C",
+                                        "destinationTerminal": "3",
+                                        "duration": 372,
+                                        "mileage": 2604,
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "AIHXx3TnzuEPr+tZMy3Fuflub53wPoy0io12mz6uHIGKkIyi3Sr7CMZy9GuD50xvfqqWsImIQ9j8w3c/3D8wiPKMAw3yUukqAZMRaVFJJc/CFaYrVatsUN+1ooMQWTsFg7U8VRw3YdYsARo",
+                                "carrier": "B6",
+                                "origin": "RDU",
+                                "destination": "LAX",
+                                "basisCode": "ZH2AUEN5",
+                                "private": true
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AIHXx3TnzuEPr+tZMy3Fuflub53wPoy0io12mz6uHIGKkIyi3Sr7CMZy9GuD50xvfqqWsImIQ9j8w3c/3D8wiPKMAw3yUukqAZMRaVFJJc/CFaYrVatsUN+1ooMQWTsFg7U8VRw3YdYsARo",
+                                "segmentId": "GEc6NZby5yGN0Au+"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AIHXx3TnzuEPr+tZMy3Fuflub53wPoy0io12mz6uHIGKkIyi3Sr7CMZy9GuD50xvfqqWsImIQ9j8w3c/3D8wiPKMAw3yUukqAZMRaVFJJc/CFaYrVatsUN+1ooMQWTsFg7U8VRw3YdYsARo",
+                                "segmentId": "GTNTDBwxA83RNw9f"
+                            }
+                        ],
+                        "baseFareTotal": "USD241.29",
+                        "saleFareTotal": "USD241.29",
+                        "saleTaxTotal": "USD40.70",
+                        "saleTotal": "USD281.99",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD18.10"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU B6 X/BOS B6 LAX Q RDULAX11.49 229.79ZH2AUEN5 1S0.01 USD 241.29 END ZP RDU BOS XT 18.10US 8.00ZP 5.60AY 9.00XF RDU4.50 BOS4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            },
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD321.24",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg8002",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 499,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 91,
+                                "flight": {
+                                    "carrier": "B6",
+                                    "number": "886"
+                                },
+                                "id": "G14s2GyEPdMW-rsX",
+                                "cabin": "COACH",
+                                "bookingCode": "M",
+                                "bookingCodeCount": 7,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LMe2OydEINNFhGr+",
+                                        "aircraft": "E90",
+                                        "arrivalTime": "2016-06-23T11:33-04:00",
+                                        "departureTime": "2016-06-23T10:02-04:00",
+                                        "origin": "RDU",
+                                        "destination": "JFK",
+                                        "originTerminal": "2",
+                                        "destinationTerminal": "5",
+                                        "duration": 91,
+                                        "onTimePerformance": 90,
+                                        "mileage": 426,
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 56
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 352,
+                                "flight": {
+                                    "carrier": "B6",
+                                    "number": "523"
+                                },
+                                "id": "GvVwR6h+LKRb8jKu",
+                                "cabin": "COACH",
+                                "bookingCode": "M",
+                                "bookingCodeCount": 7,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LCdnqoWdEmXqnYDH",
+                                        "aircraft": "32S",
+                                        "arrivalTime": "2016-06-23T15:21-07:00",
+                                        "departureTime": "2016-06-23T12:29-04:00",
+                                        "origin": "JFK",
+                                        "destination": "LAX",
+                                        "originTerminal": "5",
+                                        "destinationTerminal": "3",
+                                        "duration": 352,
+                                        "onTimePerformance": 80,
+                                        "mileage": 2468,
+                                        "meal": "Meal",
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "AK9zvdUhmTv2DaqtIeNFxBFzUuWo4Hy9N7SoA6QsEV2HJJcxVlAm0BGuWMSGXxa0S5/+7lfwBSFgDLW2DOWLIeTM3NGyqD2tlpVsyqxWcKa7pTtzJGgvD3uhTJQszzq9RpxYm31ridMSYMU",
+                                "carrier": "B6",
+                                "origin": "RDU",
+                                "destination": "LAX",
+                                "basisCode": "MH2AUEN5",
+                                "private": true
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AK9zvdUhmTv2DaqtIeNFxBFzUuWo4Hy9N7SoA6QsEV2HJJcxVlAm0BGuWMSGXxa0S5/+7lfwBSFgDLW2DOWLIeTM3NGyqD2tlpVsyqxWcKa7pTtzJGgvD3uhTJQszzq9RpxYm31ridMSYMU",
+                                "segmentId": "G14s2GyEPdMW-rsX"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AK9zvdUhmTv2DaqtIeNFxBFzUuWo4Hy9N7SoA6QsEV2HJJcxVlAm0BGuWMSGXxa0S5/+7lfwBSFgDLW2DOWLIeTM3NGyqD2tlpVsyqxWcKa7pTtzJGgvD3uhTJQszzq9RpxYm31ridMSYMU",
+                                "segmentId": "GvVwR6h+LKRb8jKu"
+                            }
+                        ],
+                        "baseFareTotal": "USD277.80",
+                        "saleFareTotal": "USD277.80",
+                        "saleTaxTotal": "USD43.44",
+                        "saleTotal": "USD321.24",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD20.84"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU B6 X/NYC B6 LAX 277.79MH2AUEN5 1S0.01 USD 277.80 END ZP RDU JFK XT 20.84US 8.00ZP 5.60AY 9.00XF RDU4.50 JFK4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            },
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD346.60",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg8003",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 450,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 239,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "1166"
+                                },
+                                "id": "GL5e8IsH7eVofDMT",
+                                "cabin": "COACH",
+                                "bookingCode": "L",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "L6EityjcLiq28Hqm",
+                                        "aircraft": "319",
+                                        "arrivalTime": "2016-06-23T10:19-06:00",
+                                        "departureTime": "2016-06-23T08:20-04:00",
+                                        "origin": "RDU",
+                                        "destination": "DEN",
+                                        "originTerminal": "2",
+                                        "duration": 239,
+                                        "mileage": 1432,
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 61
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 150,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "420"
+                                },
+                                "id": "GPaO1-8RsYR-Xbff",
+                                "cabin": "COACH",
+                                "bookingCode": "K",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "L4iEC4A5gIoZB9f8",
+                                        "aircraft": "753",
+                                        "arrivalTime": "2016-06-23T12:50-07:00",
+                                        "departureTime": "2016-06-23T11:20-06:00",
+                                        "origin": "DEN",
+                                        "destination": "LAX",
+                                        "destinationTerminal": "7",
+                                        "duration": 150,
+                                        "onTimePerformance": 60,
+                                        "mileage": 860,
+                                        "meal": "Food and Beverages for Purchase",
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "Ag35hap79WuAOiamhbJbDWahR882xVUSVcn8UscFsFok",
+                                "carrier": "UA",
+                                "origin": "RDU",
+                                "destination": "DEN",
+                                "basisCode": "LAA21AKN"
+                            },
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "Alj8YaFUvt+tJ4w/GCqNmj2g9lEKG29HtwDguYnXO8U/",
+                                "carrier": "UA",
+                                "origin": "DEN",
+                                "destination": "LAX",
+                                "basisCode": "KAA21AKN"
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "Ag35hap79WuAOiamhbJbDWahR882xVUSVcn8UscFsFok",
+                                "segmentId": "GL5e8IsH7eVofDMT"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "Alj8YaFUvt+tJ4w/GCqNmj2g9lEKG29HtwDguYnXO8U/",
+                                "segmentId": "GPaO1-8RsYR-Xbff"
+                            }
+                        ],
+                        "baseFareTotal": "USD301.38",
+                        "saleFareTotal": "USD301.38",
+                        "saleTaxTotal": "USD45.22",
+                        "saleTotal": "USD346.60",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD22.62"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU UA X/DEN Q18.60 165.58LAA21AKN UA LAX Q18.60 98.60KAA21AKN USD 301.38 END ZP RDU DEN XT 22.62US 8.00ZP 5.60AY 9.00XF RDU4.50 DEN4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            },
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD346.60",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg8008",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 618,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 239,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "1166"
+                                },
+                                "id": "GL5e8IsH7eVofDMT",
+                                "cabin": "COACH",
+                                "bookingCode": "L",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "L6EityjcLiq28Hqm",
+                                        "aircraft": "319",
+                                        "arrivalTime": "2016-06-23T10:19-06:00",
+                                        "departureTime": "2016-06-23T08:20-04:00",
+                                        "origin": "RDU",
+                                        "destination": "DEN",
+                                        "originTerminal": "2",
+                                        "duration": 239,
+                                        "mileage": 1432,
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 231
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 148,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "744"
+                                },
+                                "id": "Gsp0yVRORDWhJ5Bx",
+                                "cabin": "COACH",
+                                "bookingCode": "K",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LZ020KRB5mpLiT16",
+                                        "aircraft": "739",
+                                        "arrivalTime": "2016-06-23T15:38-07:00",
+                                        "departureTime": "2016-06-23T14:10-06:00",
+                                        "origin": "DEN",
+                                        "destination": "LAX",
+                                        "destinationTerminal": "7",
+                                        "duration": 148,
+                                        "onTimePerformance": 70,
+                                        "mileage": 860,
+                                        "meal": "Food and Beverages for Purchase",
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "Ag35hap79WuAOiamhbJbDWahR882xVUSVcn8UscFsFok",
+                                "carrier": "UA",
+                                "origin": "RDU",
+                                "destination": "DEN",
+                                "basisCode": "LAA21AKN"
+                            },
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "Alj8YaFUvt+tJ4w/GCqNmj2g9lEKG29HtwDguYnXO8U/",
+                                "carrier": "UA",
+                                "origin": "DEN",
+                                "destination": "LAX",
+                                "basisCode": "KAA21AKN"
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "Ag35hap79WuAOiamhbJbDWahR882xVUSVcn8UscFsFok",
+                                "segmentId": "GL5e8IsH7eVofDMT"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "Alj8YaFUvt+tJ4w/GCqNmj2g9lEKG29HtwDguYnXO8U/",
+                                "segmentId": "Gsp0yVRORDWhJ5Bx"
+                            }
+                        ],
+                        "baseFareTotal": "USD301.38",
+                        "saleFareTotal": "USD301.38",
+                        "saleTaxTotal": "USD45.22",
+                        "saleTotal": "USD346.60",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD22.62"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU UA X/DEN Q18.60 165.58LAA21AKN UA LAX Q18.60 98.60KAA21AKN USD 301.38 END ZP RDU DEN XT 22.62US 8.00ZP 5.60AY 9.00XF RDU4.50 DEN4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            },
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD366.60",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg8004",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 440,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 239,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "1283"
+                                },
+                                "id": "GO1Iiqgprv7YW9eK",
+                                "cabin": "COACH",
+                                "bookingCode": "T",
+                                "bookingCodeCount": 2,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LLldaZkvV5NWyOj-",
+                                        "aircraft": "319",
+                                        "arrivalTime": "2016-06-23T18:09-06:00",
+                                        "departureTime": "2016-06-23T16:10-04:00",
+                                        "origin": "RDU",
+                                        "destination": "DEN",
+                                        "originTerminal": "2",
+                                        "duration": 239,
+                                        "mileage": 1432,
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 51
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 150,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "701"
+                                },
+                                "id": "GY0aD3Wc0FfAZlVb",
+                                "cabin": "COACH",
+                                "bookingCode": "K",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LZDUE-YpIeBFllkx",
+                                        "aircraft": "753",
+                                        "arrivalTime": "2016-06-23T20:30-07:00",
+                                        "departureTime": "2016-06-23T19:00-06:00",
+                                        "origin": "DEN",
+                                        "destination": "LAX",
+                                        "destinationTerminal": "7",
+                                        "duration": 150,
+                                        "onTimePerformance": 70,
+                                        "mileage": 860,
+                                        "meal": "Food and Beverages for Purchase",
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "AT+K5tI+zUUcHx0Mui7r+A5vtcKB8E+/cICspqGVSuEQ",
+                                "carrier": "UA",
+                                "origin": "RDU",
+                                "destination": "DEN",
+                                "basisCode": "TAA21AKN"
+                            },
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "Alj8YaFUvt+tJ4w/GCqNmj2g9lEKG29HtwDguYnXO8U/",
+                                "carrier": "UA",
+                                "origin": "DEN",
+                                "destination": "LAX",
+                                "basisCode": "KAA21AKN"
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "Alj8YaFUvt+tJ4w/GCqNmj2g9lEKG29HtwDguYnXO8U/",
+                                "segmentId": "GY0aD3Wc0FfAZlVb"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AT+K5tI+zUUcHx0Mui7r+A5vtcKB8E+/cICspqGVSuEQ",
+                                "segmentId": "GO1Iiqgprv7YW9eK"
+                            }
+                        ],
+                        "baseFareTotal": "USD319.99",
+                        "saleFareTotal": "USD319.99",
+                        "saleTaxTotal": "USD46.61",
+                        "saleTotal": "USD366.60",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD24.01"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU UA X/DEN Q18.60 184.19TAA21AKN UA LAX Q18.60 98.60KAA21AKN USD 319.99 END ZP RDU DEN XT 24.01US 8.00ZP 5.60AY 9.00XF RDU4.50 DEN4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            },
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD367.60",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg8005",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 478,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 130,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "621"
+                                },
+                                "id": "GedMnIMcmEHvb6sS",
+                                "cabin": "COACH",
+                                "bookingCode": "L",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "Lkv1vmJ9nLO27w7S",
+                                        "aircraft": "73G",
+                                        "arrivalTime": "2016-06-23T07:55-05:00",
+                                        "departureTime": "2016-06-23T06:45-04:00",
+                                        "origin": "RDU",
+                                        "destination": "ORD",
+                                        "originTerminal": "2",
+                                        "destinationTerminal": "1",
+                                        "duration": 130,
+                                        "mileage": 645,
+                                        "meal": "Food and Beverages for Purchase",
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 75
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 273,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "2001"
+                                },
+                                "id": "Gh+sGO5JnIndxfF1",
+                                "cabin": "COACH",
+                                "bookingCode": "T",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LJEmHMNixZk4qkdG",
+                                        "aircraft": "739",
+                                        "arrivalTime": "2016-06-23T11:43-07:00",
+                                        "departureTime": "2016-06-23T09:10-05:00",
+                                        "origin": "ORD",
+                                        "destination": "LAX",
+                                        "originTerminal": "1",
+                                        "destinationTerminal": "7",
+                                        "duration": 273,
+                                        "onTimePerformance": 60,
+                                        "mileage": 1740,
+                                        "meal": "Food for Purchase",
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "A7pm2FxmK2umuPmm4XE2mpttxYGvnEhGpvylKhN2rvQk",
+                                "carrier": "UA",
+                                "origin": "RDU",
+                                "destination": "CHI",
+                                "basisCode": "LAA21AKN"
+                            },
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "AGacpcoDWc0Blvz8Q8jP6M1oPO1iGQZqzVXrcVBZRBAg",
+                                "carrier": "UA",
+                                "origin": "CHI",
+                                "destination": "LAX",
+                                "basisCode": "TAA21AKN"
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "A7pm2FxmK2umuPmm4XE2mpttxYGvnEhGpvylKhN2rvQk",
+                                "segmentId": "GedMnIMcmEHvb6sS"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AGacpcoDWc0Blvz8Q8jP6M1oPO1iGQZqzVXrcVBZRBAg",
+                                "segmentId": "Gh+sGO5JnIndxfF1"
+                            }
+                        ],
+                        "baseFareTotal": "USD320.93",
+                        "saleFareTotal": "USD320.93",
+                        "saleTaxTotal": "USD46.67",
+                        "saleTotal": "USD367.60",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD24.07"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU UA X/CHI Q18.60 101.40LAA21AKN UA LAX Q18.60 182.33TAA21AKN USD 320.93 END ZP RDU ORD XT 24.07US 8.00ZP 5.60AY 9.00XF RDU4.50 ORD4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            },
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD367.60",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg8009",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 573,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 130,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "621"
+                                },
+                                "id": "GedMnIMcmEHvb6sS",
+                                "cabin": "COACH",
+                                "bookingCode": "L",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "Lkv1vmJ9nLO27w7S",
+                                        "aircraft": "73G",
+                                        "arrivalTime": "2016-06-23T07:55-05:00",
+                                        "departureTime": "2016-06-23T06:45-04:00",
+                                        "origin": "RDU",
+                                        "destination": "ORD",
+                                        "originTerminal": "2",
+                                        "destinationTerminal": "1",
+                                        "duration": 130,
+                                        "mileage": 645,
+                                        "meal": "Food and Beverages for Purchase",
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 170
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 273,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "531"
+                                },
+                                "id": "GF57iQ6gZ3DazXrq",
+                                "cabin": "COACH",
+                                "bookingCode": "T",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "Lj4NN1ExZnQ3FsIq",
+                                        "aircraft": "738",
+                                        "arrivalTime": "2016-06-23T13:18-07:00",
+                                        "departureTime": "2016-06-23T10:45-05:00",
+                                        "origin": "ORD",
+                                        "destination": "LAX",
+                                        "originTerminal": "1",
+                                        "destinationTerminal": "7",
+                                        "duration": 273,
+                                        "onTimePerformance": 70,
+                                        "mileage": 1740,
+                                        "meal": "Food for Purchase",
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "A7pm2FxmK2umuPmm4XE2mpttxYGvnEhGpvylKhN2rvQk",
+                                "carrier": "UA",
+                                "origin": "RDU",
+                                "destination": "CHI",
+                                "basisCode": "LAA21AKN"
+                            },
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "AGacpcoDWc0Blvz8Q8jP6M1oPO1iGQZqzVXrcVBZRBAg",
+                                "carrier": "UA",
+                                "origin": "CHI",
+                                "destination": "LAX",
+                                "basisCode": "TAA21AKN"
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "A7pm2FxmK2umuPmm4XE2mpttxYGvnEhGpvylKhN2rvQk",
+                                "segmentId": "GedMnIMcmEHvb6sS"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AGacpcoDWc0Blvz8Q8jP6M1oPO1iGQZqzVXrcVBZRBAg",
+                                "segmentId": "GF57iQ6gZ3DazXrq"
+                            }
+                        ],
+                        "baseFareTotal": "USD320.93",
+                        "saleFareTotal": "USD320.93",
+                        "saleTaxTotal": "USD46.67",
+                        "saleTotal": "USD367.60",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD24.07"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU UA X/CHI Q18.60 101.40LAA21AKN UA LAX Q18.60 182.33TAA21AKN USD 320.93 END ZP RDU ORD XT 24.07US 8.00ZP 5.60AY 9.00XF RDU4.50 ORD4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            },
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD408.60",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg800A",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 484,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 73,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "6200"
+                                },
+                                "id": "GzYJ-QwM6YCO8TiB",
+                                "cabin": "COACH",
+                                "bookingCode": "T",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "L7tO8V+DfH73+0E1",
+                                        "aircraft": "CR7",
+                                        "arrivalTime": "2016-06-23T07:18-04:00",
+                                        "departureTime": "2016-06-23T06:05-04:00",
+                                        "origin": "RDU",
+                                        "destination": "IAD",
+                                        "originTerminal": "2",
+                                        "duration": 73,
+                                        "operatingDisclosure": "OPERATED BY MESA AIRLINES DBA UNITED EXPRESS",
+                                        "mileage": 224,
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 87
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 324,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "470"
+                                },
+                                "id": "GbqUXjx8A9h30pbz",
+                                "cabin": "COACH",
+                                "bookingCode": "W",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LF2-lKrUxx01Wj-g",
+                                        "aircraft": "739",
+                                        "arrivalTime": "2016-06-23T11:09-07:00",
+                                        "departureTime": "2016-06-23T08:45-04:00",
+                                        "origin": "IAD",
+                                        "destination": "LAX",
+                                        "destinationTerminal": "7",
+                                        "duration": 324,
+                                        "onTimePerformance": 80,
+                                        "mileage": 2281,
+                                        "meal": "Food for Purchase",
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "A+0xUUBADoQcFhYihr7FK8ffUBu3g+yWk8RXDE7wOGuCIYE",
+                                "carrier": "UA",
+                                "origin": "RDU",
+                                "destination": "WAS",
+                                "basisCode": "TAA21AKN"
+                            },
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "AhTkpkqAds8SWpt/eus/Bm3510W6S8qBpv6lV3g3a8GgvSo",
+                                "carrier": "UA",
+                                "origin": "WAS",
+                                "destination": "LAX",
+                                "basisCode": "WAA21AGN"
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "A+0xUUBADoQcFhYihr7FK8ffUBu3g+yWk8RXDE7wOGuCIYE",
+                                "segmentId": "GzYJ-QwM6YCO8TiB"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AhTkpkqAds8SWpt/eus/Bm3510W6S8qBpv6lV3g3a8GgvSo",
+                                "segmentId": "GbqUXjx8A9h30pbz"
+                            }
+                        ],
+                        "baseFareTotal": "USD359.06",
+                        "saleFareTotal": "USD359.06",
+                        "saleTaxTotal": "USD49.54",
+                        "saleTotal": "USD408.60",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD26.94"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU UA X/WAS Q18.60 89.30TAA21AKN UA LAX Q18.60 232.56WAA21AGN USD 359.06 END ZP RDU IAD XT 26.94US 8.00ZP 5.60AY 9.00XF RDU4.50 IAD4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            },
+            {
+                "kind": "qpxexpress#tripOption",
+                "saleTotal": "USD408.60",
+                "id": "Z0Fte7gjPqCPNcGR0ebTg8007",
+                "slice": [
+                    {
+                        "kind": "qpxexpress#sliceInfo",
+                        "duration": 463,
+                        "segment": [
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 73,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "1405"
+                                },
+                                "id": "GpgZ4i7+6KLQH-+2",
+                                "cabin": "COACH",
+                                "bookingCode": "T",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "0",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "LUkzLu-PqaGtlD-k",
+                                        "aircraft": "738",
+                                        "arrivalTime": "2016-06-23T11:34-04:00",
+                                        "departureTime": "2016-06-23T10:21-04:00",
+                                        "origin": "RDU",
+                                        "destination": "IAD",
+                                        "originTerminal": "2",
+                                        "duration": 73,
+                                        "mileage": 224,
+                                        "secure": true
+                                    }
+                                ],
+                                "connectionDuration": 56
+                            },
+                            {
+                                "kind": "qpxexpress#segmentInfo",
+                                "duration": 334,
+                                "flight": {
+                                    "carrier": "UA",
+                                    "number": "632"
+                                },
+                                "id": "GRiGgNhDex813dmp",
+                                "cabin": "COACH",
+                                "bookingCode": "W",
+                                "bookingCodeCount": 9,
+                                "marriedSegmentGroup": "1",
+                                "leg": [
+                                    {
+                                        "kind": "qpxexpress#legInfo",
+                                        "id": "Lv3gpbmvtMb9QVMv",
+                                        "aircraft": "739",
+                                        "arrivalTime": "2016-06-23T15:04-07:00",
+                                        "departureTime": "2016-06-23T12:30-04:00",
+                                        "origin": "IAD",
+                                        "destination": "LAX",
+                                        "destinationTerminal": "7",
+                                        "duration": 334,
+                                        "onTimePerformance": 90,
+                                        "mileage": 2281,
+                                        "meal": "Food for Purchase",
+                                        "secure": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "pricing": [
+                    {
+                        "kind": "qpxexpress#pricingInfo",
+                        "fare": [
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "A+0xUUBADoQcFhYihr7FK8ffUBu3g+yWk8RXDE7wOGuCIYE",
+                                "carrier": "UA",
+                                "origin": "RDU",
+                                "destination": "WAS",
+                                "basisCode": "TAA21AKN"
+                            },
+                            {
+                                "kind": "qpxexpress#fareInfo",
+                                "id": "AhTkpkqAds8SWpt/eus/Bm3510W6S8qBpv6lV3g3a8GgvSo",
+                                "carrier": "UA",
+                                "origin": "WAS",
+                                "destination": "LAX",
+                                "basisCode": "WAA21AGN"
+                            }
+                        ],
+                        "segmentPricing": [
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "A+0xUUBADoQcFhYihr7FK8ffUBu3g+yWk8RXDE7wOGuCIYE",
+                                "segmentId": "GpgZ4i7+6KLQH-+2"
+                            },
+                            {
+                                "kind": "qpxexpress#segmentPricing",
+                                "fareId": "AhTkpkqAds8SWpt/eus/Bm3510W6S8qBpv6lV3g3a8GgvSo",
+                                "segmentId": "GRiGgNhDex813dmp"
+                            }
+                        ],
+                        "baseFareTotal": "USD359.06",
+                        "saleFareTotal": "USD359.06",
+                        "saleTaxTotal": "USD49.54",
+                        "saleTotal": "USD408.60",
+                        "passengers": {
+                            "kind": "qpxexpress#passengerCounts",
+                            "adultCount": 1
+                        },
+                        "tax": [
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "US_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "US",
+                                "country": "US",
+                                "salePrice": "USD26.94"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "AY_001",
+                                "chargeType": "GOVERNMENT",
+                                "code": "AY",
+                                "country": "US",
+                                "salePrice": "USD5.60"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "XF",
+                                "chargeType": "GOVERNMENT",
+                                "code": "XF",
+                                "country": "US",
+                                "salePrice": "USD9.00"
+                            },
+                            {
+                                "kind": "qpxexpress#taxInfo",
+                                "id": "ZP",
+                                "chargeType": "GOVERNMENT",
+                                "code": "ZP",
+                                "country": "US",
+                                "salePrice": "USD8.00"
+                            }
+                        ],
+                        "fareCalculation": "RDU UA X/WAS Q18.60 89.30TAA21AKN UA LAX Q18.60 232.56WAA21AGN USD 359.06 END ZP RDU IAD XT 26.94US 8.00ZP 5.60AY 9.00XF RDU4.50 IAD4.50",
+                        "latestTicketingTime": "2016-01-20T23:59-05:00",
+                        "ptc": "ADT"
+                    }
+                ]
+            }
+        ]
+    }
+}
