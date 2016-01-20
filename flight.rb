@@ -13,33 +13,32 @@ class Flight
 
 
   def get_data
-    # HTTParty.post("https://www.googleapis.com/qpxExpress/v1/trips/search?key=#{ENV["GOOGLE_KEY"]}",
-    # :body =>  {
-    #     "request": {
-    #       "passengers": {
-    #         "kind": "qpxexpress#passengerCounts",
-    #         "adultCount": 1,
-    #         "childCount": 0,
-    #         "infantInLapCount": 0,
-    #         "infantInSeatCount": 0,
-    #         "seniorCount": 0
-    #       },
-    #       "slice": [
-    #         {
-    #           "kind": "qpxexpress#sliceInput",
-    #           "origin": "#{@start_code}",
-    #           "destination": "#{@end_code}",
-    #           "date": "#{@date}",
-    #           "maxStops": 1,
-    #           "preferredCabin": "COACH",
-    #         }
-    #       ],
-    #       "refundable": false,
-    #       "solutions": 10
-    #     }
-    #   }.to_json,
-    #   :headers => { 'Content-Type' => 'application/json' })
-    JSON.parse(File.open('./mock_flight.json').read)
+    HTTParty.post("https://www.googleapis.com/qpxExpress/v1/trips/search?key=#{ENV["GOOGLE_KEY"]}",
+    :body =>  {
+        "request": {
+          "passengers": {
+            "kind": "qpxexpress#passengerCounts",
+            "adultCount": 1,
+            "childCount": 0,
+            "infantInLapCount": 0,
+            "infantInSeatCount": 0,
+            "seniorCount": 0
+          },
+          "slice": [
+            {
+              "kind": "qpxexpress#sliceInput",
+              "origin": "#{@start_code}",
+              "destination": "#{@end_code}",
+              "date": "#{@date}",
+              "maxStops": 1,
+              "preferredCabin": "COACH",
+            }
+          ],
+          "refundable": false,
+          "solutions": 10
+        }
+      }.to_json,
+      :headers => { 'Content-Type' => 'application/json' })
   end
 
   def price(num)
@@ -76,7 +75,7 @@ class Flight
 
   def total_time(trip_num)
     minutes = @page["trips"]["tripOption"][trip_num]["slice"][0]["duration"].to_f
-    hours = (minutes/60.0).round(2)
+    hours = (minutes/60.0).round(1)
     "#{hours} hours"
   end
 
@@ -90,10 +89,11 @@ class Flight
       next_stop["origin"] = origin(trip_counter, leg_counter)
       next_stop["destination"] = destination(trip_counter, leg_counter)
       next_stop["flight_number"] = "#{carrier(trip_counter, leg_counter)} #{number(trip_counter, leg_counter)}"
-      next_stop["departure_time"] = "#{departs_on(trip_counter, leg_counter)} at #{departs_at(trip_counter, leg_counter)}"
+      next_stop["departure_time"] = "#{departs_at(trip_counter, leg_counter)}"
       stops << next_stop
       leg_counter += 1
     end
+    stops << total_time(trip_counter)
     stops << price(trip_counter)
     stops
   end
@@ -107,4 +107,18 @@ class Flight
     end
     trips
   end
+
+  def show_results(num)
+    lines = ""
+    options(num).each do |trip|
+      lines<<"#{trip[-1]}"
+      lines<<" || #{trip[-2]}"
+      lines<<" || #{trip[0]["origin"]} -> #{trip[0]["destination"]} @ #{trip[0]["departure_time"]}"
+      lines<<" || #{trip[1]["origin"]} -> #{trip[1]["destination"]} @ #{trip[1]["departure_time"]}" unless trip[1].nil?
+      lines<<"\n"
+    end
+    lines
+  end
 end
+
+puts Flight.new("RDU", "LAX", "2016-06-23").show_results(10)

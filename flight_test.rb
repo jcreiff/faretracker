@@ -31,9 +31,9 @@ class FlightTest < Minitest::Test
 
   def test_itinerary
     assert_equal [{"leg"=>1, "origin"=>"RDU", "destination"=>"JFK",
-      "flight_number"=>"B6 1186", "departure_time"=>"2016-06-23 at 07:20 PM"},
+      "flight_number"=>"B6 1186", "departure_time"=>"07:20 PM"},
       {"leg"=>2, "origin"=>"JFK", "destination"=>"LAX", "flight_number"=>"B6 2023",
-         "departure_time"=>"2016-06-23 at 10:45 PM"}, "$281.99"], @flight.itinerary(0)
+         "departure_time"=>"10:45 PM"}, "9.4 hours", "$281.99"], @flight.itinerary(0)
   end
 
   def test_departs_at
@@ -41,12 +41,16 @@ class FlightTest < Minitest::Test
   end
 
   def test_total_time
-    assert_equal "9.37 hours", @flight.total_time(0)
+    assert_equal "9.4 hours", @flight.total_time(0)
   end
 
   def test_options
     assert_equal 3, @flight.options(3).length
     refute_equal @flight.options(3)[0], @flight.options(3)[1]
+  end
+
+  def test_format
+    assert_equal "$281.99 || 9.4 hours || RDU -> JFK @ 07:20 PM || JFK -> LAX @ 10:45 PM\n", @flight.show_results(1)
   end
 
 end
