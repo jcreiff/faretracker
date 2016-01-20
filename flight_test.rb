@@ -50,7 +50,7 @@ class FlightTest < Minitest::Test
   end
 
   def test_format
-    assert_equal "$281.99 || 9.4 hours || RDU -> JFK @ 07:20 PM || JFK -> LAX @ 10:45 PM\n", @flight.show_results(1)
+    assert_equal "$281.99 || 9.4 hours || RDU -> JFK @ 07:20 PM || JFK -> LAX @ 10:45 PM || B6\n", @flight.show_results(1)
   end
 
 end

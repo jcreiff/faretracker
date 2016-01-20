@@ -115,10 +115,11 @@ class Flight
       lines<<" || #{trip[-2]}"
       lines<<" || #{trip[0]["origin"]} -> #{trip[0]["destination"]} @ #{trip[0]["departure_time"]}"
       lines<<" || #{trip[1]["origin"]} -> #{trip[1]["destination"]} @ #{trip[1]["departure_time"]}" unless trip[1].nil?
+      lines<<" || #{trip[0]["flight_number"][0..1]}"
       lines<<"\n"
     end
     lines
   end
 end
-
-puts Flight.new("RDU", "LAX", "2016-06-23").show_results(10)
+# 
+# puts Flight.new("RDU", "LAX", "2016-06-23").show_results(10)
