@@ -21,6 +21,18 @@ class FlightReporter
       lines<<" || #{trip[0]["flight_number"][0..1]}"
       lines<<"\n"
     end
-    lines
+    translate(lines)
+  end
+
+  def translate(text)
+    airline_codes.keys.each do |code|
+      text.gsub!(code, airline_codes[code])
+    end
+    text
+  end
+
+  def airline_codes
+    {"AA"=>"American", "B6"=>"JetBlue", "DL"=>"Delta", "F9"=>"Frontier", "FL"=>"AirTran",
+      "WN"=>"Southwest","UA"=>"United"}
   end
 end
