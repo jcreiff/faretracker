@@ -1,7 +1,7 @@
 require 'httparty'
 require 'byebug'
 
-class Flight
+class FlightFetcher
   attr_reader :itineraries
 
   def initialize(start_code, end_code, date)
@@ -41,5 +41,3 @@ class Flight
   end
 
 end
-
-# puts Flight.new("RDU", "SFO", "2016-06-22").show_results(10)

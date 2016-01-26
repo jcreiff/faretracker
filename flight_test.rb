@@ -1,10 +1,10 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require './flight.rb'
+require './flight_fetcher.rb'
 require './flight_parser.rb'
 require './flight_reporter.rb'
 
-class Flight
+class FlightFetcher
   def get_data
     JSON.parse(File.open('./mock_flight.json').read)
   end
@@ -13,13 +13,13 @@ end
 class FlightTest < Minitest::Test
 
   def setup
-    @flight = Flight.new("RDU", "SFO", "2015-06-01")
+    @flight = FlightFetcher.new("RDU", "SFO", "2015-06-01")
     @flight_parser = FlightParser.new(@flight)
     @flight_reporter = FlightReporter.new(@flight_parser, 1)
   end
 
   def test_can_be_created_with_three_inputs
-    assert Flight.new("RDU", "SFO", "2015-06-01")
+    assert FlightFetcher.new("RDU", "SFO", "2015-06-01")
   end
 
   def test_can_get_info

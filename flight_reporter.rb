@@ -1,4 +1,4 @@
-require './flight.rb'
+require './flight_fetcher.rb'
 require './flight_parser.rb'
 
 class FlightReporter
@@ -24,5 +24,3 @@ class FlightReporter
     lines
   end
 end
-
-# puts FlightReporter.new((FlightParser.new(Flight.new("RDU", "SFO", "2016-06-23"))), 5).show_results

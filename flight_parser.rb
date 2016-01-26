@@ -1,4 +1,4 @@
-require './flight.rb'
+require './flight_fetcher.rb'
 require 'time'
 
 class FlightParser
@@ -75,5 +75,3 @@ class FlightParser
     trips
   end
 end
-
-# puts FlightParser.new(Flight.new("RDU", "SFO", "2016-06-23")).inspect
