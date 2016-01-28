@@ -1,5 +1,6 @@
 require './flight_fetcher.rb'
 require './flight_parser.rb'
+require './flight_analyst.rb'
 
 class FlightReporter
 
@@ -7,6 +8,7 @@ class FlightReporter
 
   def initialize(parsed_flight, number_of_results)
     @parsed_flight = parsed_flight.options(number_of_results)
+    @flight_analyst = FlightAnalyst.new(parsed_flight, number_of_results)
     @number_of_results = number_of_results
   end
 
@@ -34,5 +36,13 @@ class FlightReporter
   def airline_codes
     {"AA"=>"American", "B6"=>"JetBlue", "DL"=>"Delta", "F9"=>"Frontier", "FL"=>"AirTran",
       "WN"=>"Southwest","UA"=>"United"}
+  end
+
+  def show_stats
+    stats = ""
+    stats<<"Average Price: #{@flight_analyst.average_price}\n"
+    stats<<"Median Price: #{@flight_analyst.median}\n"
+    stats<<"Low Price: #{@flight_analyst.low}\n"
+    stats
   end
 end

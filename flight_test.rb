@@ -3,6 +3,7 @@ require 'minitest/pride'
 require './flight_fetcher.rb'
 require './flight_parser.rb'
 require './flight_reporter.rb'
+require './flight_analyst.rb'
 
 class FlightFetcher
   def get_data
@@ -16,6 +17,8 @@ class FlightTest < Minitest::Test
     @flight = FlightFetcher.new("RDU", "SFO", "2015-06-01")
     @flight_parser = FlightParser.new(@flight)
     @flight_reporter = FlightReporter.new(@flight_parser, 1)
+    @flight_reporter2 = FlightReporter.new(@flight_parser, 10)
+    @flight_analyst = FlightAnalyst.new(@flight_parser, 10)
   end
 
   def test_can_be_created_with_three_inputs
@@ -55,6 +58,23 @@ class FlightTest < Minitest::Test
 
   def test_format
     assert_equal "$281.99 || 9.4 hours || RDU -> JFK @ 07:20 PM || JFK -> LAX @ 10:45 PM || JetBlue\n", @flight_reporter.show_results
+  end
+
+  def test_average
+    assert_equal 350, @flight_analyst.average_price
+  end
+
+  def test_median
+    assert_equal 357, @flight_analyst.median
+  end
+
+  def test_low
+    assert_equal 282, @flight_analyst.low
+  end
+
+  def test_show_stats
+    assert_equal "Average Price: 350\nMedian Price: 357\nLow Price: 282\n",
+    @flight_reporter2.show_stats
   end
 
 end
