@@ -6,9 +6,9 @@ class FlightReporter
 
   attr_reader :parsed_flight, :number_of_results
 
-  def initialize(parsed_flight, number_of_results)
+  def initialize(parsed_flight, flight_analyst, number_of_results)
     @parsed_flight = parsed_flight.options(number_of_results)
-    @flight_analyst = FlightAnalyst.new(parsed_flight, number_of_results)
+    @flight_analyst = flight_analyst
     @number_of_results = number_of_results
   end
 

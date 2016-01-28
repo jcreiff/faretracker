@@ -16,9 +16,8 @@ class FlightTest < Minitest::Test
   def setup
     @flight = FlightFetcher.new("RDU", "SFO", "2015-06-01")
     @flight_parser = FlightParser.new(@flight)
-    @flight_reporter = FlightReporter.new(@flight_parser, 1)
-    @flight_reporter2 = FlightReporter.new(@flight_parser, 10)
     @flight_analyst = FlightAnalyst.new(@flight_parser, 10)
+    @flight_reporter = FlightReporter.new(@flight_parser, @flight_analyst, 1)
   end
 
   def test_can_be_created_with_three_inputs
@@ -74,7 +73,7 @@ class FlightTest < Minitest::Test
 
   def test_show_stats
     assert_equal "Average Price: 350\nMedian Price: 357\nLow Price: 282\n",
-    @flight_reporter2.show_stats
+    @flight_reporter.show_stats
   end
 
 end
